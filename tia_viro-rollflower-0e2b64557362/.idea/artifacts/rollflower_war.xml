@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="rollflower:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>rollflower</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="rollflower.war">
+      <element id="artifact" artifact-name="rollflower:war exploded" />
+    </root>
+  </artifact>
+</component>

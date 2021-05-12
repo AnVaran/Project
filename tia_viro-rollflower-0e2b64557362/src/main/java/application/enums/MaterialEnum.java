@@ -1,0 +1,8 @@
+package application.enums;
+
+public enum MaterialEnum {
+	PAPER, TEXTILE, SYNTH_TEXTILE,
+	PAPER_AND_TEXTILE, PAPER_AND_SYNTH_TEXTILE,
+	WOODEN, SYNTH_MATERIAL, WOODEN_AND_SYNTH
+	
+}
